@@ -1,0 +1,19 @@
+## stern/tern server links
+
+<p>Stun server links</p>
+https://gist.github.com/crapthings/18fe20fe7fbeb25007a88fd4ee3f06f8
+
+<p> Test Stun server links (add prefix with :)</p>
+<ul>
+<li>Need to have stun:</li>
+<li>STUN server candidate with type srfix</li>
+<li>TURN server candidate with type relay</li>
+</ul>
+https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/
+
+## to get ip
+ipconfig in bash
+(look for ip4)
+
+## resource
+https://www.youtube.com/watch?v=rr_Zd16dql0

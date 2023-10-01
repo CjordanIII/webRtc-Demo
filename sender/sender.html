@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="./sender.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <div>
+        <input placeholder="Enter username" type="text" id="username-input"><br/>
+        <button onclick="sendUsername()">Send</button>
+        <button onclick="startCall()">Start Call</button>
+    </div>
+    <div id="view-call-div">
+        <video muted id="local-video" autoplay></video>
+        <video id="remote-video" autoplay></video>
+        <div class="call-action-div">
+            <button onclick="muteVideo()">Mute video</button>
+            <button onclick="muteAudio()">Mute audio</button>
+        </div>
+    </div>
+</body>
+</html>
